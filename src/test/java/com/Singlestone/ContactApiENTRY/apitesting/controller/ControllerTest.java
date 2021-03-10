@@ -3,7 +3,6 @@ package com.Singlestone.ContactApiENTRY.apitesting.controller;
 import com.Singlestone.ContactApiENTRY.Controller.ContactsController;
 import com.Singlestone.ContactApiENTRY.Model.Contact;
 import com.Singlestone.ContactApiENTRY.util.ContactUtil;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,9 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.web.server.ResponseStatusException;
-
 import java.util.List;
-
 import static org.junit.Assert.*;
 
 @RunWith(SpringJUnit4ClassRunner.class)
