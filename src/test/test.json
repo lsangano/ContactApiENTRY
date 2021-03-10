@@ -1,0 +1,21 @@
+{
+  "id": 1,
+  "name": {
+    "first": "Kevin",
+    "middle": "Ruguge",
+    "last": "Kafuku"
+  },
+  "address": {
+    "street": "testStreet",
+    "city": "City",
+    "state": "State",
+    "zip": "Zip"
+  },
+  "phone": [
+    {
+      "number": "000-000-0000",
+      "type": "TESTING"
+    }
+  ],
+  "email": "kevkafuku@thisisatest.com"
+}
