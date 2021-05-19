@@ -51,13 +51,4 @@ public class ContactsController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Provided Contact ID not found.");
         return searchForContact.get();
     }
-
-    @DeleteMapping("contacts/{id}")
-    public Contact deleteContact(@PathVariable Long id) {
-        Optional<Contact> searchForContact = contactDao.findById(id);
-        if(! searchForContact.isPresent())
-            throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Provided Contact ID not found - cannot delete.");
-        contactDao.deleteById(id);
-        return searchForContact.get();
-    }
 }
